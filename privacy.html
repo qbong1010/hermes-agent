@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Agent Privacy Policy</title>
+<meta name="description" content="How Hermes Agent accesses, uses, stores and protects Google user data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="top">
+    <a class="brand" href="./">Hermes Agent</a>
+    <nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="muted">Effective date: November 11, 2026 · Applies to: Hermes Agent (Google Cloud OAuth client operated by PGB Partners)</p>
+
+  <h2>1. Who we are</h2>
+  <p>Hermes Agent is a private automation assistant operated by PGB Partners. It is used only by its owner and the owner's own AI assistants on the owner's devices. It is not a public service.</p>
+
+  <h2>2. Google user data we access</h2>
+  <p>Hermes Agent accesses Google user data only through the permissions (scopes) that the signed-in user approves on the Google consent screen. It never requests more than the features below need.</p>
+  <table>
+    <tr><th>Scope</th><th>What it allows</th><th>Why we use it</th></tr>
+    <tr><td><code>https://www.googleapis.com/auth/drive.file</code></td><td>Create files and access only the files that Hermes Agent created or that the user opened with it</td><td>Upload the owner's work files to the owner's Drive folders</td></tr>
+    <tr><td><code>https://www.googleapis.com/auth/drive.readonly</code></td><td>Read file metadata and content</td><td>Confirm that an uploaded file exists in the right folder and that its size and checksum match the original</td></tr>
+  </table>
+  <p>If a new feature needs another scope, it will be listed here and shown on the consent screen before any access. Hermes Agent does not access Gmail, contacts or other Google data unless such a scope is listed here and approved by the user.</p>
+
+  <h2>3. How we use the data</h2>
+  <ul>
+    <li>Only to provide the user-facing features described on the <a href="./">home page</a>: saving files to Drive, verifying uploads and sending a file-location notification to the owner's Slack channel.</li>
+    <li>The Slack notification contains only the file name, folder path and Drive link, not file contents.</li>
+    <li>We do not use Google user data for advertising, profiling, credit decisions or any purpose unrelated to these features.</li>
+  </ul>
+
+  <h2>4. Storage and security</h2>
+  <ul>
+    <li>OAuth tokens are stored only on the owner's own computers, in a folder outside any shared code repository, and are never published or sent to third parties.</li>
+    <li>Hermes Agent has no server and keeps no database of Google user data. Files stay in the user's Google Drive.</li>
+    <li>Access to the computers that hold the tokens is limited to the owner.</li>
+  </ul>
+
+  <h2>5. Sharing</h2>
+  <p>We do not sell, rent or share Google user data with third parties. Data is transferred only as needed to provide the features above (to Google Drive, and the file location to the owner's own Slack workspace), or if required by law.</p>
+
+  <h2>6. Limited Use disclosure</h2>
+  <div class="box">
+    <p>Hermes Agent's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>We do not use Google Workspace API data to develop, improve or train generalized AI or machine-learning models.</p>
+  </div>
+
+  <h2>7. Retention and deletion</h2>
+  <ul>
+    <li>Files uploaded to Drive remain under the user's control and can be deleted at any time in Google Drive.</li>
+    <li>The user can revoke Hermes Agent's access at any time at <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>. When access is revoked, the stored tokens stop working and are deleted from the owner's computers.</li>
+  </ul>
+
+  <h2>8. Changes</h2>
+  <p>If this policy changes, the updated version and its effective date will be posted on this page.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/qbong1010/hermes-agent/issues">GitHub Issues for Hermes Agent</a>, or the developer contact email shown on the Google consent screen.</p>
+
+  <hr>
+
+  <div lang="ko">
+  <h1>개인정보처리방침</h1>
+  <p class="muted">시행일: 2026년 11월 11일 · 적용 대상: Hermes Agent(PGB Partners가 운영하는 Google Cloud OAuth 클라이언트)</p>
+
+  <h2>1. 운영 주체</h2>
+  <p>Hermes Agent는 PGB Partners가 운영하는 비공개 업무 자동화 도우미입니다. 소유자와 소유자의 AI 도우미만 소유자의 기기에서 사용하며, 일반에 제공하는 서비스가 아닙니다.</p>
+
+  <h2>2. 접근하는 Google 사용자 데이터</h2>
+  <p>로그인한 사용자가 Google 동의 화면에서 허용한 권한 범위 안에서만 접근합니다. 현재 사용하는 권한은 다음과 같습니다.</p>
+  <ul>
+    <li><code>drive.file</code>: 이 앱이 만들었거나 사용자가 이 앱으로 연 파일에만 접근합니다. 소유자의 업무 파일을 Drive 폴더에 올릴 때 씁니다.</li>
+    <li><code>drive.readonly</code>: 올린 파일이 올바른 폴더에 있는지, 크기·체크섬이 원본과 같은지 확인할 때 씁니다.</li>
+  </ul>
+  <p>새 기능에 다른 권한이 필요하면 먼저 이 페이지에 적고 동의 화면에 표시합니다. 여기에 적히지 않은 Gmail·연락처 등의 데이터에는 접근하지 않습니다.</p>
+
+  <h2>3. 이용 목적</h2>
+  <p>Drive 파일 저장, 업로드 확인, 소유자 Slack 채널에 파일 위치 알림에만 씁니다. Slack 알림에는 파일 이름·폴더 경로·Drive 링크만 담고 파일 내용은 담지 않습니다. 광고·프로파일링 등 다른 목적에는 쓰지 않습니다.</p>
+
+  <h2>4. 보관과 보안</h2>
+  <p>인증 토큰은 소유자 PC에만, 공유 코드 저장소 밖의 폴더에 저장하며 공개하거나 제3자에게 보내지 않습니다. 서버나 데이터베이스가 없고 파일은 사용자 Google Drive에만 있습니다.</p>
+
+  <h2>5. 제3자 제공</h2>
+  <p>Google 사용자 데이터를 판매·대여·제3자 제공하지 않습니다. 위 기능 제공에 필요한 범위(Google Drive, 소유자 Slack에 파일 위치 전달)와 법령상 의무가 있는 경우만 예외입니다.</p>
+
+  <h2>6. 제한적 사용(Limited Use)</h2>
+  <p>Google API로 받은 정보의 사용과 다른 앱으로의 전송은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>의 제한적 사용 요건을 따릅니다. Google Workspace API 데이터를 범용 AI·머신러닝 모델의 개발·개선·학습에 쓰지 않습니다.</p>
+
+  <h2>7. 보존과 삭제</h2>
+  <p>Drive에 올린 파일은 사용자가 언제든 삭제할 수 있습니다. <a href="https://myaccount.google.com/permissions">Google 계정 권한 페이지</a>에서 언제든 접근 권한을 철회할 수 있으며, 철회하면 저장된 토큰은 더 이상 작동하지 않고 소유자 PC에서 삭제합니다.</p>
+
+  <h2>8. 변경과 문의</h2>
+  <p>방침이 바뀌면 이 페이지에 새 내용과 시행일을 게시합니다. 문의는 <a href="https://github.com/qbong1010/hermes-agent/issues">GitHub Issues</a> 또는 Google 동의 화면에 표시된 개발자 연락처로 해 주세요.</p>
+  </div>
+
+  <footer>
+    <p>Hermes Agent · Operated by PGB Partners · <a href="./">Home</a> · <a href="terms.html">Terms of Service</a></p>
+  </footer>
+</main>
+</body>
+</html>
